@@ -17,7 +17,7 @@
 body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	line-height: 1.6;
-	color: #d81f26;
+	color: #000000;
 	background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
@@ -124,6 +124,7 @@ body {
 }
 
 .card {
+	display: block;
 	background-color: #ffffff;
 	border: 1px solid #cbd5e1;
 	border-radius: 0.75rem;
@@ -132,10 +133,20 @@ body {
 	transition: var(--transition);
 }
 
+.card-link {
+	text-decoration: none;
+	color: inherit;
+}
+
 .card:hover {
 	box-shadow: var(--shadow-lg);
 	transform: translateY(-4px);
 	border-color: #d81f26;
+}
+
+.card:focus-visible {
+	outline: 3px solid #d81f26;
+	outline-offset: 2px;
 }
 
 .site-footer {
