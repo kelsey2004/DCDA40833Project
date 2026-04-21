@@ -112,6 +112,23 @@ body {
 	padding: 2rem 0;
 }
 
+.quote-highlight {
+	border: 2px solid #b22222;
+	background-color: #f8d7da;
+	padding: 12px;
+	border-radius: 6px;
+}
+
+main ul {
+	list-style-type: disc;
+	padding-left: 1.5rem;
+	margin: 1rem 0;
+}
+
+main li + li {
+	margin-top: 0.5rem;
+}
+
 .section h3 {
 	margin-bottom: 0.75rem;
 }
@@ -147,6 +164,40 @@ body {
 .card:focus-visible {
 	outline: 3px solid #d81f26;
 	outline-offset: 2px;
+}
+
+.expand-card {
+	margin: 1rem 0;
+	max-width: 900px;
+}
+
+.expand-card summary {
+	font-weight: 700;
+	cursor: pointer;
+	list-style: none;
+}
+
+.expand-card summary::-webkit-details-marker {
+	display: none;
+}
+
+.expand-card summary::after {
+	content: " +";
+	color: #b22222;
+	font-weight: 700;
+}
+
+.expand-card[open] summary::after {
+	content: " -";
+}
+
+.expand-card ul {
+	margin-top: 0.75rem;
+	padding-left: 1.25rem;
+}
+
+.expand-card li + li {
+	margin-top: 0.5rem;
 }
 
 .site-footer {
