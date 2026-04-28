@@ -4,60 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelsey Sanchez | Netflix and the Future of Entertainment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body>
+<body class="netflix-home">
     <header class="site-header">
         <nav class="nav container">
-            <h1 class="logo"> Kelsey Sanchez</h1>
+            <h1 class="logo">Kelsey Sanchez</h1>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Introduction</a></li>
-                <li><a href="section1.html">Literature Review</a></li>
-                <li><a href="section2.html"> Research Methodology</a></li>
-                <li><a href="section3.html">Findings</a></li>
-                <li><a href="Conclusion.html">Conclusion</a></li>
+                <li><a href="Literature.html">Literature Review</a></li>
+                <li><a href="Method.html"> Research Methodology</a></li>
+                <li><a href="section2.html">Findings</a></li>
+                <li><a href="Conclusion.html">Conclusion</a></li> 
                 <li><a href="workcited.html">Works Cited</a></li>
             </ul>
+            <div class="profile-pill" aria-label="Profile">KS</div>
         </nav>
     </header>
 
     <main>
-        <section class=" hero container">
-            <p class="eyebrow">WELCOME</p>
-            <h2>Netflix and the Future of Entertainment</h2>
-            <p class="hero-text">
-                Streaming platforms are becoming the dominant way individuals are consuming entertainment. Netflix has played a huge role in revolutionizing the entertainment industry. Its position in the entertainment industry poses an important study of whether the platform represents innovation or a growing threat. Netflix's exclusive deals, recommendation algorithm, and commissioning power provide a diverse range of high-quality content for their global audiences, but shape who gets access to this entertainment.
-
-            </p> 
-            <figure class="viz-container">
-                <img src="Images/NetflixEverywhere.jpg" alt="World Map with the hashtag Netflix Everywhere" width="80%">
-            </figure>
-
+        <section class="home-spotlight">
+            <div class="container spotlight-content">
+                <p class="eyebrow">NOW STREAMING: RESEARCH PROJECT</p>
+                <h2>Netflix and the Future of Entertainment</h2>
+                <p class="hero-text">
+                    Streaming platforms are becoming the dominant way individuals consume entertainment. This project studies how Netflix can operate as both groundbreaking innovation and a structural threat.
+                </p>
+                <p class="hero-text muted">
+                    Through case studies, media scholarship, and data visualizations, this site examines platform power, recommendation systems, global expansion, and shifting access to cultural visibility.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-light" href="section1.html">Start with Innovation vs. Threat</a>
+                    <a class="btn btn-ghost" href="section2.html">Open Case Studies</a>
+                </div>
+            </div>
         </section>
 
-        <section id="research-question" class="section container">
-            <h3>Research Question</h3>
-            <p>
-            To what extent does Netflix function as an innovative force in global entertainment, and to what extent does its dominance pose a cultural or structural threat to traditional media industries?</p>
+        <section class="content-row container" id="research-question">
+            <h3>Featured Question</h3>
+            <article class="feature-card">
+                <p>
+                    To what extent does Netflix function as an innovative force in global entertainment, and to what extent does its dominance pose a cultural or structural threat to traditional media industries and the future of entertainment?
+                </p>
+            </article>
         </section>
 
-        <section id="projects" class="section container">
-            <h3>What I'll explore</h3>
-            <div class="project-grid">
-                <a class="card card-link" href="section1.html">
+        <section id="projects" class="content-row container">
+            <h3>Because You Read Introduction</h3>
+            <div class="title-row">
+                <a class="title-tile" href="section1.html">
+                    <span class="tile-rank">01</span>
                     <h4>Innovation vs. Threat</h4>
-                    <p>Explore how Netflix acts as both a disruptive force and a market threat.</p>
+                    <p>How platform innovation can become market concentration.</p>
                 </a>
-                <a class="card card-link" href="section2.html">
+                <a class="title-tile" href="section2.html">
+                    <span class="tile-rank">02</span>
                     <h4>Case Studies</h4>
-                    <p>Examining specific Netflix deals in different markets.</p>
+                    <p>Deals and partnerships that extend Netflix's reach.</p>
                 </a>
-                <a class="card card-link" href="section3.html">
+                <a class="title-tile" href="section3.html">
+                    <span class="tile-rank">03</span>
                     <h4>Global Expansion</h4>
-                    <p>Investigating Netflix's strategy for entering and dominating international markets.</p>
+                    <p>International strategy, localization, and cultural impact.</p>
                 </a>
             </div>
-        </section> 
+        </section>
+
+        <section class="content-row container">
+            <h3>Continue Exploring</h3>
+            <div class="mini-row">
+                <a class="mini-tile" href="Literature.html">Literature Review</a>
+                <a class="mini-tile" href="Method.html">Research Methodology</a>
+                <a class="mini-tile" href="Conclusion.html">Conclusion</a>
+                <a class="mini-tile" href="workcited.html">Works Cited</a>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
