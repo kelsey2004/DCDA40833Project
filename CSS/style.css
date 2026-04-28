@@ -100,7 +100,7 @@ body {
 .btn:hover {
 	box-shadow: var(--shadow-lg);
 	transform: translateY(-2px);
-	background-color: #b81820;
+	background-color: hsl(357, 77%, 41%);
 }
 
 .btn:active {
@@ -113,8 +113,8 @@ body {
 }
 
 .quote-highlight {
-	border: 2px solid #b22222;
-	background-color: #f8d7da;
+	border: 2px solid #000000;
+	background-color: #ac222d;
 	padding: 12px;
 	border-radius: 6px;
 }
